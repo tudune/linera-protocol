@@ -3,13 +3,13 @@ name: Run README tests
 on:
   push:
     branches: [ main, 'devnet_*', 'testnet_*' ]
-  paths-ignore:
-    - 'CONTRIBUTING.md'
-    - 'INSTALL.md'
-    - 'docker/**'
-    - 'docker_scylla/**'
-    - 'configuration/**'
-    - 'kubernetes/**'
+    paths-ignore:
+      - 'CONTRIBUTING.md'
+      - 'INSTALL.md'
+      - 'docker/**'
+      - 'docker_scylla/**'
+      - 'configuration/**'
+      - 'kubernetes/**'
   workflow_dispatch:
   
 
